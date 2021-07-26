@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Bahia",
+    "country": "Brasil",
+    "imagem": "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/salvador04.jpg?quality=70&strip=info&w=1024",
+    "rate": "9/10",
+    "days": "10",
+    "description": "A Bahia é um estado do nordeste brasileiro com paisagens que variam da costa tropical até a aridez do Sertão. A capital, Salvador, é conhecida por seu centro histórico, o Pelourinho, com uma rica arquitetura colonial do século XVII e assentado sobre a Baía de Todos-os-Santos."
+  },
+  {
+    "name": "Sao Paulo",
+    "country": "Brasil",
+    "imagem": "https://www.euandopelomundo.com/wp-content/uploads/2019/04/sao_paulo.jpg",
+    "rate": "5",
+    "days": "5",
+    "description": "São Paulo é uma das 27 unidades federativas do Brasil. Está situado na Região Sudeste e tem por limites os estados de Minas Gerais a norte e nordeste, Paraná a sul, Rio de Janeiro a leste e Mato Grosso do Sul a oeste, além do Oceano Atlântico a sudeste."
+  },
+  {
+    "name": "Pernanbuco",
+    "country": "Brasil",
+    "imagem": "https://todepassagem.clickbus.com.br/wp-content/uploads/2021/02/Melhores-praias-de-Pernambuco.jpgCeará",
+    "rate": "9",
+    "days": "15",
+    "description": "Pernambuco é um estado no nordeste do Brasil, no Oceano Atlântico. A sua capital moderna, o Recife, inclui um porto, a cidade velha e a popular área balnear de Boa Viagem. "
+  },
+  {
+    "name": "Ceara",
+    "country": "Brasil",
+    "imagem": "https://www.setur.ce.gov.br/wp-content/uploads/sites/59/2019/05/FOTO-ASCON-SETUR_JERICOACOARA_4.jpg",
+    "rate": "10",
+    "days": "5",
+    "description": "O Ceará, um estado do nordeste brasileiro, tem um interior montanhoso e um litoral atlântico com impressionantes falésias vermelhas. "
+  }
+]
