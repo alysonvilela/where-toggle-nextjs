@@ -1,10 +1,12 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
+
+
 export default function Api() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
-  const API_URL = 'https://mocki.io/v1/e807d0f0-495b-4d04-8bc7-67cc626b5950'
+  const API_URL = 'https://mocki.io/v1/46130913-560b-4d41-8bf4-8d03cc3f5dee'
 
   useEffect(() => {
     setLoading(true);
@@ -16,5 +18,5 @@ export default function Api() {
     getApi();
   }, [])
 
-  return { data, loading}
+  return { data, loading, API_URL }
 }
