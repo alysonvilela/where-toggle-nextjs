@@ -13,9 +13,9 @@ It was builded using mobile-first concept, and the full building process has bee
 
 ## How to use
 
-Clone this repository
-Install dependencies `npm install -f`
-Run the project `npm run dev`
+ - Clone this repository
+ - Install dependencies `npm install -f`
+ - Run the project `npm run dev`
 
   
 
