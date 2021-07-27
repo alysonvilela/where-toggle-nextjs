@@ -14,6 +14,7 @@ const Home = () => {
              <h1>Take your backpack, and discover the breathing nature</h1> 
             </div>
             <div className="form pb-5">
+              
               <input type="text" placeholder="Search" className="searchbar"/>
             </div>
           </div>
@@ -21,17 +22,19 @@ const Home = () => {
       </section>
 
       <section>
-          
+        <div className="container">
+          <div className="row">
+            {loading ? <h1>Loading</h1> : null}
+            {data?.map((user:any) => 
+              <Link href={'/items/' + user?.id} 
+              key={user?.id}>
+                <a className="col-12 col-sm-6 mb-5"><Card name={user?.name}
+                rate={user?.rate}
+                bgImg={user?.imagem} /></a>
+                </Link>)}
+          </div>
+        </div>  
       </section>
-      {loading ? <h1>Loading</h1> : null}
-      {data?.map((user:any) => 
-      <div className="mb-4" key={user?.id}>
-        <Link href={'/items/' + user?.id}>
-          <a className="items"><Card name={user?.name}
-           rate={user?.rate}
-           bgImg={user?.imagem} /></a>
-          </Link>
-      </div>)}
     </div>
   )
 }

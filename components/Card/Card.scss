@@ -13,6 +13,9 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
 
 
   &::before {
@@ -28,7 +31,7 @@ a {
   }
 
   .text {
-    padding: 8px;
+    padding: 8px 0;
     width: 100%;
     z-index: 999;
 
